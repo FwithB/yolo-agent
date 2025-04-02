@@ -6,7 +6,7 @@ import os
 from openai import OpenAI
 
 # 使用提供的OpenRouter API密钥
-API_KEY = "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"
+API_KEY = ""
 
 # 初始化OpenAI客户端，连接到OpenRouter API
 client = OpenAI(api_key=API_KEY, base_url="https://openrouter.ai/api/v1")
